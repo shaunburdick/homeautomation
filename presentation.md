@@ -353,7 +353,8 @@ Vendor Lock-in   →  Mixed Ecosystem →    Full Freedom
 - **Communities**:
   - [Home Assistant Community](https://community.home-assistant.io/)
   - [r/homeassistant](https://www.reddit.com/r/homeassistant/)
-  - [DigiblurDIY](https://www.youtube.com/@digiblurDIY) (YouTube)
+  - [Everything Smart Home](https://www.youtube.com/@EverythingSmartHome) (YouTube)
+  - [Home Automation Guy](https://www.youtube.com/@HomeAutomationGuy) (YouTube)
 
 - **Documentation**:
   - [Home Assistant Docs](https://www.home-assistant.io/docs/)
