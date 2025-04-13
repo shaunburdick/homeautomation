@@ -29,6 +29,7 @@ A presentation on tips and tricks for home automation that protects your persona
   - Use agnostic home automation systems
     - Home Assistant
     - Hubitat
+    - Homey
   - Use non-internet connected devices
     - Zigbee
     - ZWave

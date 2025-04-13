@@ -13,3 +13,5 @@ I use Unifi for my home networking, with separate networks for IoT devices.
 I use PiHole for my home dns, with a primary (dns-00.service.burdick.dev) and secondary (dns-01.service.burdick.dev)
 
 I use Proxmox for any virtual machines, and Docker + Komodo (komodo.iot.burdick.dev) for container hosting.
+
+Humor is always appreciated, especially dad jokes
