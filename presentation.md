@@ -50,10 +50,10 @@ A presentation on tips and tricks for home automation that protects your persona
 
 ## Recent Smart Home Security Incidents
 
-- **2024**: [Eufy camera breach exposed user videos](https://www.theverge.com/2023/1/31/23579152/eufy-security-camera-privacy-breach-updates) to unauthorized users
-- **2023**: [Wyze data breach](https://techcrunch.com/2023/03/24/wyze-customer-emails-exposed/) exposed 13K customers' personal data
-- **2023**: [Insteon shutdown](https://staceyoniot.com/insteon-is-back-but-is-it-trustworthy/) left users with non-functional smart home devices
-- **2022**: [Chinese IoT devices sending data](https://www.zdnet.com/article/these-chinese-made-iot-devices-are-not-safe-for-your-business/) to servers in China without user consent
+- **2024**: [Wyze data breach](https://www.theverge.com/2024/2/19/24077233/wyze-security-camera-breach-13000-customers-events) exposed 13K customers' personal data
+- **2023**: [Eufy camera breach exposed user videos](https://www.theverge.com/23573362/anker-eufy-security-camera-answers-encryption) to unauthorized users
+- **2022**: [Insteon shutdown](https://staceyoniot.com/the-end-of-insteon-and-why-the-smart-home-keeps-faltering/) left users with non-functional smart home devices
+- **2021**: [Chinese/Russian IoT devices sending data](https://www.zscaler.com/blogs/security-research/new-insights-china-watching-your-iot-traffic) to servers without user consent
 
 #### Why don't smart homes keep secrets well?
 #### Because their walls have IoT ears!
