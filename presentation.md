@@ -71,6 +71,8 @@ A presentation on tips and tricks for home automation that protects your persona
 - Host your own DNS with PiHole and Unbound
 - Block ads and malicious content with DNS filtering
 
+![image](./images/dns-stats.png)
+
 #### Why do VPN ads feel like a broken record?
 #### Because they keep buffering the same pitch!
 
@@ -157,6 +159,8 @@ A presentation on tips and tricks for home automation that protects your persona
 - Create separate network for IoT Devices
 - Block/Control what IoT devices can get to
 - Keep sensitive devices on a protected network
+
+![image](./images/network-counts.png)
 
 #### Why did the IoT device get therapy?
 #### It had trouble with boundaries!
