@@ -1,5 +1,5 @@
 ---
-title: Home Automation and Personal Data
+title: Home Automation and Keeping your Data Private
 author: Shaun Burdick
 date: April 15, 2025
 theme:
@@ -8,7 +8,7 @@ options:
   end_slide_shorthand: true
 ---
 
-# Home Automation and Personal Data
+# Home Automation and Keeping your Data Private
 
 A presentation on tips and tricks for home automation that protects your personal data and doesn't lock you into an ecosystem
 
@@ -44,6 +44,9 @@ A presentation on tips and tricks for home automation that protects your persona
 - **Life360**: Restricted API access to location data
 - **Ecobee**: Modified API terms, limiting developer access
 
+#### Why did the company bring a ladder to the meeting?
+#### To reach new lows in customer service!
+
 ---
 
 # Real-world Security Concerns
@@ -64,9 +67,12 @@ A presentation on tips and tricks for home automation that protects your persona
 
 ## Protect Internet Usage
 
-- VPNs
+- VPNs?
 - Host your own DNS with PiHole and Unbound
 - Block ads and malicious content with DNS filtering
+
+#### Why do VPN ads feel like a broken record?
+#### Because they keep buffering the same pitch!
 
 ---
 
@@ -74,17 +80,19 @@ A presentation on tips and tricks for home automation that protects your persona
 
 ## PiHole Configuration
 
-```bash
-# Primary & Secondary DNS Setup
-# dns-00.service.burdick.dev & dns-01.service.burdick.dev
+### Primary & Secondary DNS Setup
+- dns-00.service.burdick.dev
+- dns-01.service.burdick.dev
 
-# Block lists I recommend:
-# - https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-# - https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt
-# - https://gist.githubusercontent.com/hkamran80/779019103fcd306979411d44c8d38459/raw/3c168e68f067f00df825c73042255e6d3fd541c4/SmartTV2.txt
-# - https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
-# - https://blocklistproject.github.io/Lists/tiktok.txt
-```
+### Block lists I recommend:
+- https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+- https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt
+- https://gist.githubusercontent.com/hkamran80/779019103fcd306979411d44c8d38459/raw/3c168e68f067f00df825c73042255e6d3fd541c4/SmartTV2.txt
+- https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+- https://blocklistproject.github.io/Lists/tiktok.txt
+
+#### Why did the pie go to the dentist?
+#### It needed a filling!
 
 ---
 
@@ -172,7 +180,7 @@ A presentation on tips and tricks for home automation that protects your persona
            ▼                         ▼
     ┌────────────────────────────────────┐
     │                                    │
-    │ Unifi Security Gateway             │
+    │ Unifi Gateway                      │
     │                                    │
     │ ┌──────────────────────────────┐   │
     │ │ Firewall Rules:              │   │
@@ -199,6 +207,9 @@ A presentation on tips and tricks for home automation that protects your persona
 - **Home Assistant**: Open-source platform with wide device support
 - **Hubitat**: Local processing without cloud dependency
 - **Homey**: Closed-source cloud/local hybrid
+
+#### Why did the smart home throw a party?
+#### It wanted to make everyone feel right at "home" with automation!
 
 ---
 
@@ -268,6 +279,11 @@ mode: single
 - **ratgdo32 vs MyQ**: Open alternatives to proprietary systems
 - Take control of your own hardware and software
 
+![image](./images/dog-build.jpg)
+
+#### Why did the dog build its own house?
+#### Because it wanted a "ruff" over its head!
+
 ---
 
 # ESPHome Example: Simple Motion Sensor
@@ -300,7 +316,8 @@ sensor:
       - delayed_off: 30s
 ```
 
-#### What did the ESP32 say to the cloud service? "Wire you trying to control me?"
+#### What did the ESP32 say to the cloud service?
+#### "Wire you trying to control me?"
 
 ---
 
@@ -311,6 +328,11 @@ sensor:
 - Apple HomeKit
 - Amazon Alexa
 
+![image](./images/dog-easy.jpg)
+
+#### Why did the dog love smart home automation?
+#### It made life paws-itively easy!
+
 ---
 
 # Moving to Open Source
@@ -319,6 +341,10 @@ sensor:
 - Home Assistant Green or Yellow
 - Raspberry Pi
 
+![image](./images/open.jpg)
+
+#### Why did the open-source project break up with its proprietary partner?
+#### It needed more freedom to commit!
 ---
 
 # Migration Path: Breaking Free
@@ -343,6 +369,11 @@ Vendor Lock-in   →  Mixed Ecosystem →    Full Freedom
 - Zigbee for low power devices
 - Consider expansion options for future growth
 - Start small and build your system gradually
+
+![image](./images/wireless.jpg)
+
+#### Why don't bees use Wi-Fi?
+#### Because they prefer to stay in their own buzz-network!
 
 ---
 
@@ -373,11 +404,21 @@ Vendor Lock-in   →  Mixed Ecosystem →    Full Freedom
 - Build a system that serves YOUR needs
 - Take control of your smart home
 
+![image](./images/conclusion.jpg)
+
+#### Why did the smart home enthusiast regret their decision?
+#### Because they didn't have the bandwidth to think it through!
+
 ---
 
 # Questions?
 
 Thank you for your attention!
+
+![image](./images/dog-question.jpg)
+
+#### Why don't skeletons ask questions?
+#### Because they might not like the answers—they don't have the guts!
 
 ---
 
@@ -386,4 +427,10 @@ Thank you for your attention!
 - Photo by [joey senft](https://unsplash.com/@jsenftphotography) on [Unsplash](https://unsplash.com/photos/brown-wooden-house-near-fire-TSmGF2Yx9mk)
 - Photo by [Y S](https://unsplash.com/@santonii) on [Unsplash](https://unsplash.com/photos/brown-tabby-cat-in-white-plastic-container-1cp55ddy2wU)
 - Photo by [Lucas van Oort](https://unsplash.com/@switch_dtp_fotografie) on [Unsplash](https://unsplash.com/photos/gray-scale-photo-of-chain-link-fence-b-PuyK1_A60)
+- Photo by [Taylor Deas-Melesh](https://unsplash.com/@taylor_deas_melesh) on [Unsplash](https://unsplash.com/photos/black-and-white-short-coated-dog-biting-brown-wooden-stick-TqTjjl4kwP4)
+- Photo by [Ken Friis Larsen](https://unsplash.com/@danish_curator) on [Unsplash](https://unsplash.com/photos/black-and-white-striped-flag-na-474S3EHk)
+- Photo by [Ignacio Amenábar](https://unsplash.com/@amenabarladrondeguevara) on [Unsplash](https://unsplash.com/photos/dog-leaning-his-head-on-car-window-2dkgXTfPfTg)
+- Photo by [Luke Southern](https://unsplash.com/@lukesouthern) on [Unsplash](https://unsplash.com/photos/open-led-signage-4kCGEB7Kt4k)
+- Photo by [Vladislav Babienko](https://unsplash.com/@garri) on [Unsplash](https://unsplash.com/photos/man-standing-in-the-middle-of-woods-KTpSVEcU0XU)
+- Photo by [Camylla Battani](https://unsplash.com/@camylla93) on [Unsplash](https://unsplash.com/photos/short-coated-brown-dog-AoqgGAqrLpU)
 
