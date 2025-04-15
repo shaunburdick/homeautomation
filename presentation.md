@@ -12,7 +12,9 @@ options:
 
 A presentation on tips and tricks for home automation that protects your personal data and doesn't lock you into an ecosystem
 
-![image:width:50%](./images/barn-fire.jpg)
+![image](./images/barn-fire.jpg)
+
+### Follow Along: https://github.com/shaunburdick/homeautomation
 
 ---
 
@@ -24,7 +26,7 @@ A presentation on tips and tricks for home automation that protects your persona
 - Home Automation hubs can access sensitive devices
 - Local Networks can be vulnerable from poorly secured IoT Devices
 
-![image:width:50%](./images/snooping.jpg)
+![image](./images/snooping.jpg)
 
 ---
 
